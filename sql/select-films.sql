@@ -20,6 +20,12 @@ SELECT * FROM films WHERE genre = 'Western' OR genre = 'SciFi';
 
 SELECT * FROM films WHERE genre != 'SciFi';
 
+SELECT * FROM films WHERE genre = 'Western' AND release_year < 2000;
+
+SELECT * FROM films WHERE title LIKE '%%Matrix%%';
+
+
+
 
 
 
